@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main-body {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 40px;
+}
+
+#title-gif {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -2;
+}
+
+#logo-jordan {
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+#main-title {
+    text-align: center;
+    text-shadow: 4px 4px 5px;
+    color: whitesmoke;
+    font-size: 1000%;
+    padding-top: 20%;
+    margin-top: 0px;
+    margin-bottom: 33%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+    margin-bottom: 40px;
+    display: block;
+}
+
+section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+section p {
+    text-align: left;
+    font-weight: 100;
+    font-size: 120%;
+    line-height: 130%;
+    margin-left: 15px;
+}
+
+.columnas {
+    text-align: left;
+    float: left;
+    width: 46%;
+    font-weight: 100;
+    font-size: 120%;
+    line-height: 130%;
+    margin-left: 15px;
+}
+
+#intro #parrafo2 {
+    float: right;
+}
+
+h3 {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table thead tr th {
+    border: 2px solid whitesmoke;
+    padding: 5px 10px;
+}
+
+table tbody tr td {
+    border: 2px solid whitesmoke;
+    padding: 5px 10px;
+}
+
+#mensaje {
+    text-align: left;
+    font-weight: 100;
+    font-size: 120%;
+    line-height: 130%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#boton-logo-jordan {
+    margin-bottom: 10px;
+}
